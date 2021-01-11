@@ -1,0 +1,46 @@
+SC_CFG:
+    VERSION:
+U0R0
+    :VERSION
+
+    NAME:
+SimpleCommsServer
+    :NAME
+
+    MAX_CLIENTS:
+2
+    :MAX_CLIENTS
+
+    LECTURE:
+Welcome to SimpleCommunication! Input /help for a list of known commands.
+    :LECTURE
+
+    RESPONSE:
+Your destination address is not set. Input /setaddress <new address>
+    :RESPONSE
+
+    HELP:
+Known commands: {/getname} {/setname <new name>} {/getaddress} {/setaddress <new
+ address>} {/disconnect [reason]}
+    :HELP
+
+    PORT:
+12345
+    :PORT
+
+    TIMEOUT:
+5000
+    :TIMEOUT
+
+    BUFFER_SIZE:
+256
+    :BUFFER_SIZE
+
+    SPAM_TIMEOUT:
+2000
+    :SPAM_TIMEOUT
+
+    SPAM_THRESHOLD:
+5
+    :SPAM_THRESHOLD
+:SC_CFG

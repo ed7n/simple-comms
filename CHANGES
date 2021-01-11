@@ -1,0 +1,32 @@
+SimpleCommunication: Changelog (CHANGES)
+----------------------------------------
+
+Update 0
+========
+
+    Revision 2 (09/09/2017)
+    -----------------------
+- docs              :   now archived into a ZIP file
+- ClientSocket
+- ServerSocket      :   fixed bug at readQuery where buffer is still parsed even
+                        if empty
+- ServerPresenter   :   restyled console logs
+- ServerPresenter   :   blocking of new clients if fully occupied
+- ServerPresenter   :   now does client kicking independently
+- ClientObject
+- ServerPresenter   :   new spam protection
+- ClientPresenter   :   now handles audio service absence
+- GDMAudioEngine    :   updated to u0r2
+
+    Revision 1 (08/30/2017)
+    -----------------------
+- docs              :   near-complete documentation with corrections
+- ServerPresenter   :   added "Administrator", "Admin" to KEYWORDS
+- ServerPresenter   :   names with whitespaces are now disallowed
+- ClientPresenter   :   removed REGEX_EOT, unused constant
+- GDMAudio
+- GDMAudioEngine    :   updated to u0r1
+
+    Revision 0 (08/22/2017)
+    -----------------------
+- initial release
